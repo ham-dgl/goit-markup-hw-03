@@ -24,6 +24,11 @@ img {
 .nav {
 	display: flex;
 	align-items: center;
+	margin-right: 76px;
+}
+.nav-menu {
+	display: flex;
+	gap: 40px;
 }
 .logo {
 	font-family: Raleway, sans-serif;
@@ -43,6 +48,7 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	padding: 24px 0;
 }
 .site-nav:hover {
 	color: #404bbf;
