@@ -24,7 +24,6 @@ img {
 .nav {
 	display: flex;
 	align-items: center;
-	margin-right: 76px;
 }
 .nav-menu {
 	display: flex;
@@ -38,6 +37,7 @@ img {
 	text-transform: uppercase;
 	line-height: 1.17;
 	color: #4D5AE5;
+	margin-right: 76px;
 }
 
 .logo span {
@@ -71,6 +71,10 @@ img {
 }
 .address a:focus {
 	color: #404BBF;
+}
+.adress-list {
+	display: flex;
+	gap: 40px;
 }
 
 .hero {
