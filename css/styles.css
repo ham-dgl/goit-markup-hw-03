@@ -12,9 +12,11 @@ img {
 }
 .header {
 	border-bottom: 1px solid #E7E9FC;
+	padding: 32px 0;
 }
 .header-position {
 	display: flex;
+	justify-content: space-between;
 }
 .container {
 	width: 1158px;
