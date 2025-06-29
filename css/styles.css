@@ -134,8 +134,7 @@ img {
 	overflow: hidden;
 }
 .features-item {
-	flex-basis: calc((100% - 72px) / 4);
-
+	width: calc((100% - 72px) / 4);
 }
 .header-feature {
 	font-weight: 500;
