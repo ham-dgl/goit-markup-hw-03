@@ -161,6 +161,7 @@ ul {
 .team {
 	background-color: #F4F4FD;
 	text-align: center;
+	padding: 120px 0;
 }
 .team-header {
 	font-weight: 700;
@@ -169,7 +170,12 @@ ul {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: #2e2f42;
+	margin-bottom: 72px;
 
+}
+.team-items {
+	display: flex;
+	gap: 24px;
 }
 .team-list {
 	background-color: #FFFFFF;
