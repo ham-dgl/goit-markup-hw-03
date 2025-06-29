@@ -119,7 +119,6 @@ img {
 .features-list {
 	display: flex;
 	gap: 24px;
-	width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -133,6 +132,14 @@ img {
 	clip-path: inset(100%);
 	clip: rect(0, 0, 0, 0);
 	overflow: hidden;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+.features-item {
+	width: calc((100% - 3 * 24px) / 4);
 }
 .header-feature {
 	font-weight: 500;
